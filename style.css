@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(240,240,240);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 500px;
+    position: relative;
+    padding: 200px 20px;
+    border-radius: 7px;
+    box-shadow: 0 9px 20px rgba(2, 2, 2, 0.116);
+    user-select: none;
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    position: absolute;
+    bottom: 12rem;
+    background-color: #ff4765;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    width: 13rem;
+    padding: 15px 0;
+    border-radius: 10rem;
+    cursor: pointer;
+    border: solid 6px #ffa0b0;
+}
+label:active{
+    transform: scale(.9);
+}
+.container p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(112, 112, 112);
+    text-align: center;
+    position: relative;
+    top: 5.5rem;
+    user-select: none;
+}
+#images{
+    position: relative;
+    bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+figure{
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(90, 88, 88);
+    margin-top: 8px;
+}
+.container .btn{
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: 6rem;
+    background-color: #ff4765;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    width: 8rem;
+    padding: 8px 0;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: solid 6px #ffa0b0;
+}
+.container .btn:hover{
+    border: solid 6px lightskyblue;
+}
+.container .out-txt{
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: 7rem;
+    
+}
